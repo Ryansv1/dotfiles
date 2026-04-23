@@ -1,0 +1,102 @@
+* {
+	font-family: "JetBrainsMono Nerd Font", monospace;
+	font-size: 13px;
+}
+
+/* Painel principal */
+.control-center {
+	background: #22212c;
+	border: 1px solid #454158;
+	border-radius: 12px;
+	padding: 8px;
+	color: #f8f8f2;
+}
+
+/* Notificação individual */
+.notification {
+	background: #2d2b3d;
+	border: 1px solid #454158;
+	border-radius: 10px;
+	margin: 4px 0;
+	padding: 12px;
+	color: #f8f8f2;
+}
+
+.notification:hover {
+	background: #353346;
+}
+
+/* Urgência */
+.notification.low {
+	border-left: 3px solid #8aff80;
+}
+.notification.normal {
+	border-left: 3px solid #9580ff;
+}
+.notification.critical {
+	border-left: 3px solid #ff9580;
+	background: #3a2535;
+}
+
+/* Título e corpo */
+.notification-summary {
+	font-weight: bold;
+	color: #f8f8f2;
+}
+
+.notification-body {
+	color: #c4c4c4;
+}
+
+/* Timestamp */
+.notification-action {
+	background: #353346;
+	border-radius: 6px;
+	color: #9580ff;
+	margin-top: 4px;
+}
+
+.notification-action:hover {
+	background: #454158;
+}
+
+/* Botão fechar */
+.close-button {
+	background: transparent;
+	color: #ff9580;
+	border-radius: 4px;
+}
+
+.close-button:hover {
+	background: #ff9580;
+	color: #22212c;
+}
+
+/* DND toggle */
+.widget-dnd {
+	background: #2d2b3d;
+	border-radius: 8px;
+	padding: 8px 12px;
+	margin-bottom: 6px;
+	color: #f8f8f2;
+}
+
+.widget-dnd > switch:checked {
+	background: #9580ff;
+}
+
+/* MPRIS */
+.widget-mpris {
+	background: #2d2b3d;
+	border-radius: 8px;
+	padding: 8px;
+	color: #f8f8f2;
+}
+
+/* Popup flutuante (fora do painel) */
+.notification-popup {
+	background: #22212c;
+	border: 1px solid #454158;
+	border-radius: 10px;
+	color: #f8f8f2;
+}
